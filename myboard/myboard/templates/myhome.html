@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Мой дом</title>
+</head>
+<body>
+    <h1>Это страница о моем доме!</h1>
+    <form action='{% url "reversed" %}'>
+        <label>
+            <textarea cols="50" rows="10" name="username"></textarea>
+        </label>
+        <br><br>
+        <input type="submit" value="Reverse">
+    </form>
+</body>
+</html>
